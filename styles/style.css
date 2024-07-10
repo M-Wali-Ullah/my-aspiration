@@ -126,6 +126,13 @@ body {
     text-align: center;
 }
 
+.btn-learn-more{
+width: 171px;
+height: 47px;
+padding: 12px 20px 12px 20px;
+background-color: white;
+}
+
 /* webdev first */
 .webdev-first-container {
     margin-top: 48px;
@@ -361,6 +368,7 @@ body {
     margin: auto;
     text-align: center;
 }
+
 /* react */
 .future-target-react {
     display: flex;
@@ -369,15 +377,19 @@ body {
     width: 1140px;
     height: 219px;
     padding: 40px;
+    border: 1px solid black;
     border-radius: 20px;
 }
-.react-description{
+
+.react-description {
     width: 950px;
     height: 140px;
 }
+
 .react-description a {
     color: black;
 }
+
 /* node */
 .future-target-node {
     display: flex;
@@ -386,15 +398,19 @@ body {
     width: 1140px;
     height: 219px;
     padding: 40px;
+    border: 1px solid black;
     border-radius: 20px;
 }
-.node-description{
+
+.node-description {
     width: 950px;
     height: 140px;
 }
+
 .node-description a {
     color: black;
 }
+
 /* mongo */
 .future-target-mongo {
     display: flex;
@@ -403,13 +419,89 @@ body {
     width: 1140px;
     height: 219px;
     padding: 40px;
+    border: 1px solid black;
     border-radius: 20px;
 }
-.mongo-description{
+
+.mongo-description {
     width: 950px;
     height: 140px;
 }
+
 .mongo-description a {
     color: black;
 }
 
+/* support starts */
+.support {
+    width: 1450px;
+    height: 360px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.support-content {
+    display: flex;
+    margin: auto;
+    width: 1140px;
+    background-image: url('../assets/handshake.jpg');
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.support-content h1, p, input, button{
+    position: relative;
+    z-index: 1;
+}
+
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+}
+
+.feedback input {
+    padding: 10px;
+    height: 60px;
+    width: 550px;
+    border-radius: 15px;
+}
+
+.feedback button {
+    width: 120px;
+    height: 57px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+/* support ends */
+
+/* footer starts */
+.foot {
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: gray;
+    background-color: #f7f8f8;
+}
+
+.logo {
+    margin-left: 900px;
+}
+
+.foot h3 {
+    margin-left: 30px;
+}
+/* footer ends */
