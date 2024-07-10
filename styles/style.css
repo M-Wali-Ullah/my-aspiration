@@ -12,6 +12,10 @@ body {
 }
 
 /* shared */
+.header-font{
+    font-weight: 800;
+    font-size: 32px;
+}
 
 /* banner starts*/
 .banner-container {
@@ -82,5 +86,134 @@ body {
     border-radius: 10px;
     margin-top: 150px;
 }
-/* banner ends */
 
+/* banner ends */
+/* why we dev starts */
+.webdev-cntainer {
+    margin-top: 30px;
+    max-height: 1395px;
+    width: 1140px;
+    background-color: rgb(250, 250, 251);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.webdev-container-ineer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 946px;
+    height: 1235px;
+}
+
+.webdev-header {
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.webdev-header h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.webdev-header p{
+    text-align: center;
+}
+
+/* webdev first */
+.webdev-first-container {
+    margin-top: 48px;
+    width: 946px;
+    height: 336px;
+}
+
+.webdev-first-container-inner {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background: linear-gradient(to right, white, rgb(250, 250, 251));
+}
+
+.webdev-first-text {
+    width: 477px;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.webdev-first-img {
+    width: 477px;
+    height: 220px;
+    margin-top: 8px;
+    text-align: right;
+}
+
+/* webdev second */
+.webdev-second-container {
+    margin-top: 48px;
+    width: 946px;
+    height: 336px;
+}
+
+.webdev-second-container-inner {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background: linear-gradient(to left, white, rgb(250, 250, 251));
+}
+
+.webdev-second-text {
+    width: 550px;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.webdev-second-img {
+    width: 280px;
+    height: 220px;
+    margin-top: 8px;
+}
+.webdev-second-img img{
+    text-align: left;
+}
+
+/* webdev third */
+.webdev-third-container {
+    margin-top: 48px;
+    width: 946px;
+    height: 336px;
+}
+
+.webdev-third-container-inner {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background: linear-gradient(to right, white, rgb(250, 250, 251));
+}
+
+.webdev-third-text {
+    width: 477px;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.webdev-third-img {
+    width: 477px;
+    height: 220px;
+    margin-top: 8px;
+    text-align: right;
+}
